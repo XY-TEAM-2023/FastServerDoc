@@ -8,10 +8,14 @@
   - [路由](FS文档/路由.md)
   - [RESTful 路由介绍](FS文档/RESTful路由介绍.md)
   - [RESTful 路由使用](FS文档/Restful路由使用.md)
+  - [身份验证](FS文档/身份验证.md)
   - [请求](FS文档/请求.md)
   - [响应](FS文档/响应.md)
   - [缓存](FS文档/缓存.md)
   - [数据库](FS文档/数据库.md)
   - [计划任务](FS文档/计划任务.md)
+  - [热更](FS文档/热更.md)
+  - [运维工具](FS文档/运维工具.md)
+- <a href="https://wway.lanzoub.com/s/fastserver" download target="_blank">资源下载</a>
 - [常见问题](常见问题.md)
 
