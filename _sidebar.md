@@ -17,5 +17,6 @@
   - [热更](FS文档/热更.md)
   - [运维工具](FS文档/运维工具.md)
 - <a href="https://wway.lanzoub.com/s/fastserver" download target="_blank">资源下载</a>
+- [视频教程(旧)](旧版本视频教程.md)
 - [常见问题](常见问题.md)
 
