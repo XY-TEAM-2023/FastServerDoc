@@ -1,4 +1,6 @@
 - [更新日志](更新日志.md)
+- <a href="https://wway.lanzoub.com/s/fastserver" download target="_blank">资源下载</a>
+- [常见问题](常见问题.md)
 - FastServer
   - [简介](FS文档/简介.md)
   - [安装](FS文档/安装.md)
@@ -17,6 +19,6 @@
   - [计划任务](FS文档/计划任务.md)
   - [热更](FS文档/热更.md)
   - [运维工具](FS文档/运维工具.md)
-- <a href="https://wway.lanzoub.com/s/fastserver" download target="_blank">资源下载</a>
-- [常见问题](常见问题.md)
+- 在线工具
+  - [定义API接口](在线工具/定义API接口.md)
 
