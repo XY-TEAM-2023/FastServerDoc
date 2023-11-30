@@ -31,6 +31,9 @@
         overflow: hidden !important;
       }
     </style>
+
+    <!-- 测试 -->
+
     <script>
       window.$docsify = {
         name: "",
@@ -61,20 +64,31 @@
             defaultTheme: "funky",
           },
         },
+        markdown: {
+          renderer: {
+            code: function (code, lang) {
+              if (lang === "mermaid") {
+                return '<div class="mermaid">' + code + "</div>";
+              }
+              return this.origin.code.apply(this, arguments);
+            },
+          },
+        },
       };
     </script>
-    <!-- Docsify v4 -->
-    <script src="./插件/docsify.js"></script>
+	
+	<script src="./插件/docsify.js"></script>
     <script src="./插件/复制代码.js"></script>
     <script src="./插件/图片缩放.js"></script>
     <script src="./插件/外联脚本.js"></script>
     <script src="./插件/分页导航.js"></script>
-    <!-- ![](docs/charlie.gif) 得到焦点后播放 -->
-    <!-- ![](charlie2.gif "-gifcontrol-mode=click;") 点击播放  -->
-    <!-- ![](charlie.gif "-gifcontrol-disabled;") 不使用插件 -->
     <script src="./插件/gif播放.js"></script>
-    <!-- <script src="./插件/最后更新时间.js"></script> -->
     <script src="./插件/全局搜索.js"></script>
-    <!-- 测试 -->
+    <script src="./插件/markdown.js"></script>
+    <script>
+      mermaid.initialize({ startOnLoad: true });
+    </script>
+    <!-- Docsify v4 -->
+    <!-- 在 body 结束前 -->
   </body>
 </html>
