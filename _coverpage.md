@@ -8,7 +8,7 @@
 
 [资源下载](https://wway.lanzoub.com/s/fastserver)
 [一起交流](https://qm.qq.com/cgi-bin/qm/qr?k=dDyvnvKaTEXVOynV11IKSi0OxW2Klccp&jump_from=webapi&authKey=H5t0WKYwjBZNqbSsIcEy3V0+8fggXwPzGcV70n3ocup8bApl1J6k6B4ulsZbCTfs)
-[阅读文档](/FS文档/简介.md)
+[阅读文档](/tutorial/basic/install.md)
 
 <!-- 背景色 -->
 

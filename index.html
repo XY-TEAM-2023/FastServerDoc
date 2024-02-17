@@ -36,26 +36,27 @@
 
     <script>
       window.$docsify = {
-        name: "",
+        name: "FastServer",
         repo: "",
+        logo: 'logo2.png',
         loadSidebar: true,
-        subMaxLevel: 3,
+        //subMaxLevel: 3,
         coverpage: true,
         onlyCover: true,
         alias: {
           "/.*/_sidebar.md": "/_sidebar.md",
         },
-        // 阅读进度
-        progress: {
-          position: "top",
-          color: "var(--theme-color,#42b983)",
-          height: "3px",
-        },
-        // 最后更新时间
+        // // 阅读进度
+        // progress: {
+        //   position: "top",
+        //   color: "var(--theme-color,#42b983)",
+        //   height: "3px",
+        // },
+        // // 最后更新时间
         // timeUpdater: {
-        //   text: "<div align='right' width='200px' style='color:gray;font-size:10px'> 最后更新时间：{docsify-updated} </div>",
+        //   text: "<div align='left'>文档更新时间: {docsify-updated}</div>",
         //   formatUpdated: "{YYYY}/{MM}/{DD}",
-        //   whereToPlace: "bottom", // "top" or "bottom", default to "bottom"
+        //   whereToPlace: "top",  // "top" or "bottom", default to "bottom"
         // },
         theme: {
           code: {
@@ -85,6 +86,7 @@
     <script src="./插件/gif播放.js"></script>
     <script src="./插件/全局搜索.js"></script>
     <script src="./插件/markdown.js"></script>
+    <!-- <script src="./插件/最后更新时间.js"></script> -->
     <script>
       mermaid.initialize({ startOnLoad: true });
     </script>
