@@ -11,9 +11,9 @@
     />
     <link
       rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
+      href="./lib/vue.css"
     />
-    <link rel="stylesheet" href="./插件/gif播放.css" />
+    <link rel="stylesheet" href="./lib/gif.css" />
     <!-- 测试 -->
   </head>
   <body>
@@ -46,18 +46,6 @@
         alias: {
           "/.*/_sidebar.md": "/_sidebar.md",
         },
-        // // 阅读进度
-        // progress: {
-        //   position: "top",
-        //   color: "var(--theme-color,#42b983)",
-        //   height: "3px",
-        // },
-        // // 最后更新时间
-        // timeUpdater: {
-        //   text: "<div align='left'>文档更新时间: {docsify-updated}</div>",
-        //   formatUpdated: "{YYYY}/{MM}/{DD}",
-        //   whereToPlace: "top",  // "top" or "bottom", default to "bottom"
-        // },
         theme: {
           code: {
             // 内置样式名称：dark、coy、okaidia、tomorrow、funky、twilight
@@ -78,15 +66,13 @@
       };
     </script>
 	
-	<script src="./插件/docsify.js"></script>
-    <script src="./插件/复制代码.js"></script>
-    <script src="./插件/图片缩放.js"></script>
-    <script src="./插件/外联脚本.js"></script>
-    <script src="./插件/分页导航.js"></script>
-    <script src="./插件/gif播放.js"></script>
-    <script src="./插件/全局搜索.js"></script>
-    <script src="./插件/markdown.js"></script>
-    <!-- <script src="./插件/最后更新时间.js"></script> -->
+	<script src="./lib/docsify.js"></script>
+    <script src="./lib/copyCode.js"></script>
+    <script src="./lib/imageScale.js"></script>
+    <script src="./lib/linkScript.js"></script>
+    <script src="./lib/page.js"></script>
+    <script src="./lib/gif.js"></script>
+    <script src="./lib/search.js"></script>
     <script>
       mermaid.initialize({ startOnLoad: true });
     </script>
