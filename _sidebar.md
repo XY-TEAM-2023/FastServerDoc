@@ -20,6 +20,8 @@
   - [拦截器](tutorial/advanced/interceptor.md)
   - [接口权限设置](tutorial/advanced/permission.md)
   - [热更](tutorial/advanced/hotUpdate.md)
+- **部署相关**
+  - [redis-宝塔](tutorial/release/bt_redis.md)
 - <b>功能实现</b>
   - [用户登录检测](functions/loginCheck.md)
 - <b>其他</b>
