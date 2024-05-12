@@ -57,9 +57,18 @@
    2. 如果无法取消，关闭本地服务，重新收集版本后推送版本
    ```
 
-   
 
-   
+10. HTTPS出现 **net::ERR_CERT_AUTHORITY_INVALID** 错误
+
+    > 查看[HTTPS](tutorial/advanced/https.md)相关问题
+
+    
+
+    
+
+    
+
+
 
 
 
