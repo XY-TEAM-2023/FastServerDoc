@@ -12,31 +12,31 @@
 
 ## 2. 安装框架
 
-1. 下载最新的 <a href="https://wway.lanzoub.com/s/fsdevtool" download target="_blank">开发工具</a>
+1. 下载最新的 <a href="https://wway.lanzoub.com/b01fkthng" download target="_blank">开发工具</a>
 
 2. 解压后**运行exe**
 
-   ![image-20231009202203166](install.assets/image-20231009202203166.png)
+   ![image-20241022175505011](./install.assets/image-20241022175505011.png)
 
 3. 点击选择按钮，选择火山PC的安装的根目录（目录名可能是别的）
 
-   ![image-20231009202650273](install.assets/image-20231009202650273.png)
+   ![image-20241022175533727](./install.assets/image-20241022175533727.png)
 
-   > 如果提示："请重新选择火山PC目录"，必然是目录选择错误。程序会检测所选目录下是否包含 `\plugins\vprj_android` 和 `\plugins\vprj_win` 两个目录
+   > 如果提示："请重新选择火山PC目录"，必然是目录选择错误。程序会检测所选目录下是否包含  `\plugins\vprj_win` 两个目录
 
-4. 点对比更新，会对比文件md5，软件会显示都有哪些文件需要下载
+4. 点击加载正式版本
 
-   ![image-20231009205522603](install.assets/image-20231009205522603.png)
+   ![image-20241022175617297](./install.assets/image-20241022175617297.png)
 
-5. 点击下载。以下为目录对应关系（依赖关系为 `创建项目用的模板` **依赖** `模版模块`，`模版模块` **依赖** `框架模块`）
+5. 点击要下载的版本，稍等两秒后右侧会出现更新内容
 
-   > **框架模块：**\plugins\vprj_win\classlib\user\\`FastServer模块`
+   ![image-20241022175654194](./install.assets/image-20241022175654194.png)
 
-   > **模版模块：**\plugins\vprj_win\classlib\user\\`FastServer模块_模版`
+6. 点击对比更新
 
-   > **创建项目用的模板：**\plugins\vprj_win\wizard\template\\`FastServer项目模版`
+   ![image-20241022175717529](./install.assets/image-20241022175717529.png)
 
-6. 重新打开火山PC即可
+7. 更新结束后重新打开火山PC
 
 
 

@@ -13,6 +13,7 @@
   - [Cookie](tutorial/basic/cookie.md)
   - [数据库](tutorial/basic/db.md)
   - [缓存](tutorial/basic/cache.md)
+  - [websocket](tutorial/basic/websocket.md)
   - [计划任务](tutorial/basic/task.md)
   - [JSON数组](tutorial/basic/jsonArr.md)
 - <b>进阶教程</b>
