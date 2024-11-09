@@ -26,7 +26,7 @@ jobs:
           git config --global user.email "6099734@qq.com"
           
           # 添加 GitLab 远程仓库
-          git remote add gitlab "https://oauth2:E65ZH2KTwNg2REkBmvzg@jihulab.com:dreamlink/FsDoc.git"
+          git remote add gitlab "https://oauth2:E65ZH2KTwNg2REkBmvzg@jihulab.com/dreamlink/FsDoc.git"
 
           # 推送所有分支和标签
           git push gitlab --all -f
