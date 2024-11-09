@@ -16,3 +16,13 @@ pages:
       - public
   only:
     - main
+  # 添加以下配置
+  environment:
+    name: production
+    url: https://$CI_PROJECT_NAMESPACE.gitlab.io/$CI_PROJECT_NAME
+  variables:
+    PUBLIC_ACCESS: "true"
+    GITLAB_ACCESS_TOKEN: ""
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      when: always
