@@ -1,0 +1,35 @@
+name: Sync to GitLab
+
+on:
+  push:
+    branches:
+      - main      # 可以添加多个分支
+      - develop
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0    # 获取所有历史提交
+          
+      - name: Push to GitLab
+        env:
+          GITLAB_TOKEN: E65ZH2KTwNg2REkBmvzg
+        run: |
+          echo "开始同步到 GitLab..."
+          
+          # 设置 Git 配置
+          git config --global user.name "Coco"
+          git config --global user.email "6099734@qq.com"
+          
+          # 添加 GitLab 远程仓库
+          git remote add gitlab "https://oauth2:E65ZH2KTwNg2REkBmvzg@jihulab.com:dreamlink/FastServerDoc.git"
+
+          # 推送所有分支和标签
+          git push gitlab --all -f
+          git push gitlab --tags -f
+          
+          echo "同步完成"
