@@ -1,8 +1,16 @@
 pages:
   stage: deploy
   script:
+    # 删除已存在的 public 目录
+    - rm -rf public
     - mkdir public
-    - cp -r * public/
+    
+    # 复制所有非隐藏文件和目录到 public，排除 public 目录自身
+    - find . -maxdepth 1 ! -path "." ! -path "./.*" ! -path "./public" -exec cp -r {} public/ \;
+    
+    # 显示复制结果（调试用）
+    - echo "public 目录内容："
+    - ls -la public/
   artifacts:
     paths:
       - public
