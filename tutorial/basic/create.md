@@ -4,7 +4,7 @@
 
 2. 选择`FastServer`项目模板并完善项目信息
 
-   ![image-20231010104702964](create.assets/image-20231010104702964.png)
+   ![image-20241125105318899](./create.assets/image-20241125105318899.png)
 
 3. 点击确定
 
