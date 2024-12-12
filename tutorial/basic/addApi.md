@@ -43,7 +43,7 @@
 
   ![image-20240217172734414](addApi.assets/image-20240217172734414.png)
 
-  >  如果想要注册一个POST类型的接口，可以将  `E_请求类型.POST` 修改为 `E_请求类型.POST`
+  >  如果想要注册一个POST类型的接口，可以将  `E_请求类型.GET` 修改为 `E_请求类型.POST`
 
   !> 如果想要注册一个同时支持GET和POST的接口，只需要注册两个类型不同的接口即可。比如</br> `FS_注册API接口 (E_请求类型.GET, "/hello", API_用户.hello)`</br>`FS_注册API接口 (E_请求类型.POST, "/hello", API_用户.hello)`
 
